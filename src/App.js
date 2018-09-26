@@ -1,5 +1,6 @@
 import React from "react";
 
+import Navbar from "./components/Navbar";
 import Titles from "./components/Titles";
 import Form from "./components/Form";
 import Weather from "./components/Weather";
@@ -46,6 +47,7 @@ class App extends React.Component {
   render(){
     return(
       <div>
+        <Navbar />
         <div className="wrapper">
           <div className="main">
             <div className="container">
